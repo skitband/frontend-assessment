@@ -76,6 +76,11 @@
 .custom-card__image {
   height: 50%;
   object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.custom-card__image:hover {
+  transform: scale(1.1);
 }
 
 .custom-card__button {
