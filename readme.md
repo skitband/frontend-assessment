@@ -1,40 +1,33 @@
-Introduction
----
-Thanks for taking the time to complete this frontend technical assessment. We will be focusing on software quality (scalability, readability, maintainability, etc.) and your eye for detail. You may include any libraries, but Vue.js is preferred and jQuery is not recommended. Along with following best practices, bonus points for following our [coding guidelines](https://github.com/mindarc/frontend-assessment/wiki/Coding-guidelines). 
+# MindArc Frontend Assessment - By Sergio Lio (applicant for FE)
 
-Exercise 1
----
-Build a responsive page based on the designs.
+## Description
+A technical assessment made by Sergio Lio
 
-##### Requirements
-1. Match the designs exactly.
-2. Needs to be responsive.
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Development](#development)
+- [License](#license)
 
-##### Designs
-* exercise1-desktop.png
-* exercise1-mobile.png
+## Installation
+To get started with the project, follow these steps:
 
-##### Assets
-* Desktop banner - https://via.placeholder.com/1920x650
-* Mobile banner - https://via.placeholder.com/600x600
-* Content images - https://via.placeholder.com/400x300
+1. Clone the repository: `git clone <repository_url>`
+2. Navigate to the project directory: `cd exercise_one / exercise_two`
+3. Install the dependencies: `npm install`
 
-Exercise 2
----
-Read the `data.json` file and display the data as tabs on desktop and an accordion on mobile.
+## Usage
+After installing the dependencies, you can use the following npm scripts:
 
-##### Requirements
-1. Display data in tabs on desktop.
-2. Display data in an accordion on mobile.
-3. Only 1 accordion/tab should be open at a time.
-4. Open the first accordion/tab on load.
-5. If the open accordion is selected, close it.
+- `npm run dev`: Runs the project in development mode.
 
-###### Bonus points
-* Improve the user experience with meaningful animations/transitions.
-* Design and styling.
-* Explain why the result of `('b' + 'a' + + 'a' + 'a').toLowerCase()` is `banana`.
+## Development
+For development purposes, ensure you have Node.js installed. You can find the necessary version in the `package.json` file. Additionally, it's recommended to have Git and a modern code editor.
 
-Submission
----
-We recommend submitting your completed assessment as a forked repository. Please replace README content with instructions and relevant documentation.
+The project is structured into two separate folders:
+
+1. `exercise1`: Build a responsive page based on the designs.
+2. `exercise2`: Display the data as tabs on desktop and an accordion on mobile.
+
+## License
+This project is licensed under the [INSERT LICENSE NAME] License - see the [LICENSE](LICENSE) file for details.
