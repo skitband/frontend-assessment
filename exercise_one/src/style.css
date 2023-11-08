@@ -1,0 +1,99 @@
+.banner-image {
+  background: url('https://via.placeholder.com/1920x650');
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: 200%;
+  height: 400px;
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(77, 76, 76, 0.5);
+}
+
+.banner-content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  padding: 5rem 0;
+}
+
+
+/* Media Query for responsiveness of Banner */
+@media (max-width: 767px) {
+  .banner-image {
+    background: url('https://via.placeholder.com/600x600');
+    background-size: cover;
+    height: auto;
+  }
+  .banner-content {
+      padding: 3rem 0;
+  }
+
+  .banner-content h1 {
+      font-size: 3rem;
+      word-wrap: break-word;
+  }
+
+  .banner-content p {
+      font-size: 1.5rem;
+  }
+}
+
+.custom-card {
+  width: 320px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-card__wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.custom-card__body {
+  flex: 1;
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-card__text {
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.custom-card__image {
+  height: 50%;
+  object-fit: cover;
+}
+
+.custom-card__button {
+  font-weight: bold;
+}
+
+/* Media Query for responsiveness of Cards */
+@media (max-width: 768px) {
+  .custom-card {
+    width: 100%;
+    max-width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .custom-card__button {
+    height: auto;
+    object-fit: cover;
+  }
+}
+
