@@ -26,6 +26,12 @@ For development purposes, ensure you have Node.js installed. You can find the ne
 
 The project is structured into two separate folders:
 
+0. : each folder uses the following dependencies:
+   - bootstrap@^5.3.0
+   - vue@^3.3.4
+   - @vitejs/plugin-vue@^4.2.3
+   - vite@^4.4.5
+
 1. `exercise1`: Build a responsive page based on the designs.
 2. `exercise2`: Display the data as tabs on desktop and an accordion on mobile.
 
